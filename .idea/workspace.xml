@@ -4,24 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18a0f8f4-ad30-4fab-8c6b-d0172b52ad62" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/Currency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/CurrencyDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/CurrencyLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/DateDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/ExchangeMoneyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/ExchangeRate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/ExchangeRateLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/MoneyDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/MoneyDisplay.java" afterDir="false" />
+    <list default="true" id="18a0f8f4-ad30-4fab-8c6b-d0172b52ad62" name="Changes" comment="Infrastructure implemented. Classes from the model implemented">
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/fixerapi/FixerAuthentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/fixerapi/FixerCurrencyLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/fixerapi/FixerExchangeRateLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/jswing/SwingCurrencyDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/jswing/SwingDateDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/jswing/SwingMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/jswing/SwingMoneyDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/jswing/SwingMoneyDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/ExchangeRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/ExchangeRate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/MoneyDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/MoneyDialog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +28,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -70,6 +66,14 @@
       <option name="presentableId" value="Default" />
       <updated>1705494813510</updated>
     </task>
+    <task id="LOCAL-00001" summary="Infrastructure implemented. Classes from the model implemented">
+      <created>1705519657600</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705519657600</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,5 +86,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Infrastructure implemented. Classes from the model implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Infrastructure implemented. Classes from the model implemented" />
   </component>
 </project>
