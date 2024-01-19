@@ -1,4 +1,13 @@
-package software.eii.ulpgc.psl.moneycalculator;
+package software.eii.ulpgc.psl.moneycalculator.Controller;
+
+import software.eii.ulpgc.psl.moneycalculator.Model.Currency;
+import software.eii.ulpgc.psl.moneycalculator.Model.ExchangeRate;
+import software.eii.ulpgc.psl.moneycalculator.Model.ExchangeRateLoader;
+import software.eii.ulpgc.psl.moneycalculator.Model.Money;
+import software.eii.ulpgc.psl.moneycalculator.View.CurrencyDialog;
+import software.eii.ulpgc.psl.moneycalculator.View.DateDialog;
+import software.eii.ulpgc.psl.moneycalculator.View.MoneyDialog;
+import software.eii.ulpgc.psl.moneycalculator.View.MoneyDisplay;
 
 public class ExchangeMoneyCommand implements Command{
     private final MoneyDialog moneyDialog;

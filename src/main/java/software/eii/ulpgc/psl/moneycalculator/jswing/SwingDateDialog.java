@@ -1,7 +1,7 @@
 package software.eii.ulpgc.psl.moneycalculator.jswing;
 
 import com.toedter.calendar.JCalendar;
-import software.eii.ulpgc.psl.moneycalculator.DateDialog;
+import software.eii.ulpgc.psl.moneycalculator.View.DateDialog;
 
 import java.time.LocalDate;
 import java.time.ZoneId;

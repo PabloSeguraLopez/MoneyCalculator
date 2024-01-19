@@ -1,7 +1,7 @@
 package software.eii.ulpgc.psl.moneycalculator.jswing;
 
-import software.eii.ulpgc.psl.moneycalculator.Currency;
-import software.eii.ulpgc.psl.moneycalculator.CurrencyDialog;
+import software.eii.ulpgc.psl.moneycalculator.Model.Currency;
+import software.eii.ulpgc.psl.moneycalculator.View.CurrencyDialog;
 
 import javax.swing.*;
 import java.awt.*;

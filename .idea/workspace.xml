@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18a0f8f4-ad30-4fab-8c6b-d0172b52ad62" name="Changes" comment="Infrastructure implemented. Classes from the model implemented">
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/fixerapi/FixerAuthentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/fixerapi/FixerCurrencyLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/fixerapi/FixerExchangeRateLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/jswing/SwingCurrencyDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/jswing/SwingDateDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/jswing/SwingMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/jswing/SwingMoneyDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/jswing/SwingMoneyDisplay.java" afterDir="false" />
+    <list default="true" id="18a0f8f4-ad30-4fab-8c6b-d0172b52ad62" name="Changes" comment="Swing Interface and Fixer API implemented">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/ExchangeRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/ExchangeRate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/MoneyDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/MoneyDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/jswing/SwingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/jswing/SwingMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/jswing/SwingMoneyDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/eii/ulpgc/psl/moneycalculator/jswing/SwingMoneyDisplay.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +39,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/45353350/Desktop/Universidad Pablo/Ingenieria Informatica/3 Tercero/Primer semestre/Ingeniería del software 2/Códigos del profesor/image-viewer"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -73,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705519657600</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Swing Interface and Fixer API implemented">
+      <created>1705578638905</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705578638905</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +87,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Infrastructure implemented. Classes from the model implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Infrastructure implemented. Classes from the model implemented" />
+    <MESSAGE value="Swing Interface and Fixer API implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Swing Interface and Fixer API implemented" />
   </component>
 </project>

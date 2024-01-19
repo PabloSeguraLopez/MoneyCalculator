@@ -1,4 +1,4 @@
-package software.eii.ulpgc.psl.moneycalculator;
+package software.eii.ulpgc.psl.moneycalculator.View;
 
 import java.time.LocalDate;
 

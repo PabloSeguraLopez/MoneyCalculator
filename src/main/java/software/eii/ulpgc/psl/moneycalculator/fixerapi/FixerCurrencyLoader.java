@@ -3,8 +3,8 @@ package software.eii.ulpgc.psl.moneycalculator.fixerapi;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import software.eii.ulpgc.psl.moneycalculator.Currency;
-import software.eii.ulpgc.psl.moneycalculator.CurrencyLoader;
+import software.eii.ulpgc.psl.moneycalculator.Model.Currency;
+import software.eii.ulpgc.psl.moneycalculator.Model.CurrencyLoader;
 
 import java.io.IOException;
 import java.io.InputStream;

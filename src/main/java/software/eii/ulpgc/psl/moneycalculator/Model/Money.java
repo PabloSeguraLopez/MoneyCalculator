@@ -1,4 +1,4 @@
-package software.eii.ulpgc.psl.moneycalculator;
+package software.eii.ulpgc.psl.moneycalculator.Model;
 
 public record Money(Currency currency, double quantity) {
     @Override
